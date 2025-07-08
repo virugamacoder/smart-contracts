@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "childGreet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"inheritate.sol": "Child"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"inheritate.sol": {
+			"keccak256": "0x91cf610877d46be70a29b27f44220dcd2d0abce4a14e376e7a883771f4965562",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a8e8ee79d0689ec3e9b2f0e1a763595ec9e2988ec9887abd56426009c88b934",
+				"dweb:/ipfs/Qmbni9tMaoPtci46TFYj15P59HAHpJRCbT4uc79Da6sdtJ"
+			]
+		}
+	},
+	"version": 1
+}

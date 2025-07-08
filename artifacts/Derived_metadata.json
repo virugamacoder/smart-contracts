@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "whoAmI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Derived.sol": "Derived"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Base.sol": {
+			"keccak256": "0xddd89b2b4a623655ac99fbfa83ad3d385b5cb7876fcf992ea3e1e853e1685cd2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8438206bd27e0f390bc99c3dc696d28cc0e6946c25d05f256afd72317d1835b1",
+				"dweb:/ipfs/QmW6un1DWfxP4qTECrCA38uVYVJxV7bWLwAVdqFNGJUJEv"
+			]
+		},
+		"Derived.sol": {
+			"keccak256": "0xef20bc36eaadca5b109563f1789aaaa566fa7a3c024f8eb54ae703fa6dbd0446",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://de0f46cd2996fb82d535033df708a85fa5bd993473c681270b5d2015d01d05f3",
+				"dweb:/ipfs/QmTeodeGhRJ7kuaQ25t6Yz2fsTYeFpHaxAcGuAH4MQfGGv"
+			]
+		}
+	},
+	"version": 1
+}

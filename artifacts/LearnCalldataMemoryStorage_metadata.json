@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "userInput",
+						"type": "string"
+					}
+				],
+				"name": "saveMsg",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "savedMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewMsg",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"LearnCalldataMemoryStorage.sol": "LearnCalldataMemoryStorage"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"LearnCalldataMemoryStorage.sol": {
+			"keccak256": "0x3b43ab15710a3fb58456d55c0d18001791facc40b770b97ac88e9d056800e534",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://98b20f88e0b163f2818278bb1f450d09d90b5e2429df48aa74c363c115f64f84",
+				"dweb:/ipfs/QmZBSEfW7WWg2fpceGrfsnGq5F6PkDqhDG1d8TbKnEmy6c"
+			]
+		}
+	},
+	"version": 1
+}
